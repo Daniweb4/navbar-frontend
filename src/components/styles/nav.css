@@ -22,8 +22,6 @@ a{
         position: absolute;
         top: -700px;
         left: -2000px;
-      
-     
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -32,18 +30,19 @@ a{
         a{
             color: black;
             font-size: 2rem;
-            display: block;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         @media(min-width: 768px){
             position: initial;
             margin: 0;
-            
-            
-            
             a{
                 font-size: 1rem;
                 color: white;
                 display: inline-block;
+            
             }
             
 
@@ -57,9 +56,10 @@ a{
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 13%;
+    top: 16%;
     height: calc(60vh);
-    background-color: antiquewhite;
+    background-color: #b1a4a4;
+    border-radius: 0px 0px 50%;
     left: 0;
     right: 0;
     text-align: center;
@@ -89,6 +89,17 @@ a{
     
     @media(min-width:768px){
         display: none;
+        
 
     }
+}.crp{
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    color: brown;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    transition: .5s;
+}.crp:hover{
+    transform: scale(1.1);
 }

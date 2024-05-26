@@ -17,11 +17,11 @@ const Home = () => {
           <div className='player-wrapper' >
          
           <ReactPlayer  url='https://www.youtube.com/watch?v=fv_KQaCeigA' 
-         width='80%'
+         width='93%'
           controls
           />
          <ReactPlayer url='https://www.youtube.com/watch?v=U1nVhFoQjyw'
-              width='80%'
+              width='93%'
          controls
          />
           </div>

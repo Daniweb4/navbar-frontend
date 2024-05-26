@@ -7,9 +7,10 @@
     
 }
 .player-wrapper{
-    position: relative;
     display: flex;
-    gap: 65px;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
    
 }.text-video{
     font-weight: 900;

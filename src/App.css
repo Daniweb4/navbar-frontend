@@ -9,9 +9,7 @@
 .player-wrapper{
     position: relative;
     display: flex;
-    gap: 5px;
-
-  
+    gap: 65px;
    
 }.text-video{
     font-weight: 900;

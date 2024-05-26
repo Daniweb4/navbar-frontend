@@ -20,5 +20,7 @@
     
 }.react-player{
     position:relative;
-   
+    z-index: -2;
+    top: 0;
+    left: 0;
 }

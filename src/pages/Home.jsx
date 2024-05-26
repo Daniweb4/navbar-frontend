@@ -16,7 +16,9 @@ const Home = () => {
           <h2 className='text-video'>Comercial de Productos</h2>
           <div className='player-wrapper' >
          
-          <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=W13xlgEkurQ' width='90%'/>
+          <ReactPlayer url='https://www.youtube.com/watch?v=fv_KQaCeigA'
+          controls
+          />
          
           </div>
         </section>

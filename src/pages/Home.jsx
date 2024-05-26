@@ -15,8 +15,8 @@ const Home = () => {
         <section>
           <h2 className='text-video'>Comercial de Productos</h2>
           <div className='player-wrapper' >
-          <ReactPlayer className='react-player'  url='https://www.youtube.com/watch?v=NtrfUfhz48k' width='90%'/>
-          <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=zpeUX03adeg' width='90%'/>
+         
+          <ReactPlayer className='react-player' url='https://www.youtube.com/watch?v=W13xlgEkurQ' width='90%'/>
          
           </div>
         </section>

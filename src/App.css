@@ -5,22 +5,18 @@
     margin-top: 76px;
     background-color: aquamarine;
     
-}ReactPlayer{
-    
 }
 .player-wrapper{
+    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 5px;
+
+  
    
 }.text-video{
     font-weight: 900;
     color: black;
     text-align: center;
     
-}.react-player{
-    position:relative;
-    z-index: -2;
-    top: 0;
-    left: 0;
+
 }

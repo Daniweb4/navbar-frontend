@@ -5,16 +5,17 @@ h2{
     margin-top: 15px;
 }
 .container{
+    position: fixed;
     padding: .4rem;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: space-around; 
-    position: fixed;
-    margin: 0;
     width: 100%;
     top: 0;
     left: 0;
+    
+   
 
  
 }    
@@ -23,11 +24,8 @@ a{
     text-decoration: none;
     margin-right: 2rem;
     margin-top: -15px;
-
-   
-
 }.link{
-        position: absolute;
+        position: fixed;
         top: -700px;
         left: -2000px;
         margin-left: auto;
@@ -39,6 +37,7 @@ a{
             color: black;
             font-size: 2rem;
             padding-top: 10px;
+            text-decoration: none;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -77,6 +76,7 @@ a{
         
         
     }
+    
 } .initial{
     background-color: #222;
     position: absolute;

@@ -10,7 +10,7 @@ const Nav = () => {
     //console.log(cliked)
   }
   return (
-    <>
+    
     <div className='container'>
       <h2>Navbar</h2>
       <div className={`link ${cliked ? 'active': ''}`}>
@@ -28,7 +28,7 @@ const Nav = () => {
      
      
     </div>
-    </>
+    
   )
 }
 

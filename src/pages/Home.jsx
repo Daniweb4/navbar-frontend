@@ -1,31 +1,33 @@
 import {} from 'react'
 import Nav from '../components/Nav'
-import ReactPlayer from 'react-player'
+import Slider from '../components/Slider'
+import '@splidejs/react-splide/css';
 
 const Home = () => {
   return (
     <div>
-            <Nav 
+            <Nav />
+            <h1 className='text'>Productos Tecnologicos</h1>
+       <section className='content'>
+        <div className='txt'>   
+        <p>¡Bienvenido a nuestra tienda de teléfonos tecnológicos!
+           Explora la última y más emocionante selección de teléfonos
+           inteligentes en nuestra tienda. Desde dispositivos emblemáticos 
+           hasta opciones asequibles, tenemos algo para todos los usuarios, 
+           ya sea que busques potencia, estilo o una excelente relación calidad-precio.
+       </p> 
+       </div>
+        <div className='rotate-vert-center'><img src="https://www.muycanal.com/wp-content/uploads/2014/01/Tecnologia.jpg" alt="" /></div>
         
-        />
-       <div className='content'>
-        <h1>Productos Tecnologicos</h1>
-        <img src="https://www.muycanal.com/wp-content/uploads/2014/01/Tecnologia.jpg" alt="" />
-        </div>
-        <section>
-          <h2 className='text-video'>Comercial de Productos</h2>
-          <div className='player-wrapper' >
+        </section> 
+        <div className='txt2'><h1>Comercial de Productos</h1>
+        <section className='slider1'>
          
-          <ReactPlayer  url='https://www.youtube.com/watch?v=fv_KQaCeigA' 
-       
-          controls
-          />
-         <ReactPlayer url='https://www.youtube.com/watch?v=U1nVhFoQjyw'
+          
         
-         controls
-         />
-          </div>
+          <Slider/>
         </section>
+        </div>
     </div>
   )
 }

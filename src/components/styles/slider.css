@@ -1,0 +1,20 @@
+h2{
+    font-weight: 900;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.splide{
+    width: 500px;
+   
+
+}.splide__slide{
+    height: 600px;display: flex;
+    justify-content: center;
+    align-items: center;
+}.splide__slide img{
+   
+    width: 50%;
+}
